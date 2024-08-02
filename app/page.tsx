@@ -58,8 +58,8 @@ export default function Home() {
     }
   };
   return (
-    <main className="min-h-screen bg-gradient-to-tr from-purple-700 to-white p-7 dark:bg-gradient-to-bl dark:from-purple-700 dark:to-neutral-900">
-      <div className="flex min-h-screen rounded-lg bg-white flex-col items-center relative p-20 dark:bg-neutral-900 ">
+    <main className="min-h-screen bg-gradient-to-tr from-purple-700 to-white p-7  dark:bg-gradient-to-bl dark:from-purple-700 dark:to-neutral-900">
+      <div className="flex min-h-screen rounded-lg bg-white flex-col items-center relative p-5 sm:p-20 dark:bg-neutral-900 ">
         <div>
           <h1 className="text-4xl font-semibold text-center p-1">
           Welcome to <span className="text-purple-700"> Prose Pulse! </span>
