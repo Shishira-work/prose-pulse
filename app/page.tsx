@@ -85,7 +85,7 @@ export default function Home() {
           setShowResult={setShowResult}
         />
 
-        <div className=" mt-4 w-4/5 mx-auto grid grid-cols-2 gap-28 justify-between ">
+        <div className=" mt-4 w-4/5 mx-auto grid grid-cols-1 gap-7 sm:grid-cols-2 sm:gap-28 sm:justify-between ">
           {show && showResult ? (
             <div className="border-2 border-purple-400  rounded-lg p-5 h-max bg-purple-50 dark:bg-neutral-800">
               <div className="pb-4 px-4 flex justify-end space-x-4">
